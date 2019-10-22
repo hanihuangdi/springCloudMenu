@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="jdbc:mysql://localhost:3306/new_schema1?useUnicode=true&amp;characterEncoding=UTF-8&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC" uuid="49545f8d-1bc5-45c5-9e27-d8b142932be3">
+    <data-source source="LOCAL" name="new_schema1" group="jdbc:mysql:/localhost:3306" uuid="49545f8d-1bc5-45c5-9e27-d8b142932be3">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
