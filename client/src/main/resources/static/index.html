@@ -10,7 +10,7 @@
 <div class="layui-container" style="width: 700px;height: 600px;margin-top: 0px;padding-top: 60px;">
 
     <div style="margin-left: 460px; width: 300px;">
-        <a href="/account/redirect/order">欢迎回来！</a>
+        <a href="/account/redirect/order" th:text="${session.user.nickname}">欢迎回来！</a>
         <a href="/menu/menu_add"><button class="layui-btn layui-btn-warm layui-btn-radius">新增</button></a>
         <a href="/account/logout"><button class="layui-btn layui-btn-warm layui-btn-radius">退出</button></a>
     </div>

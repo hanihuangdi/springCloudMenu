@@ -8,16 +8,22 @@
         <outputRelativeToContentRoot value="true" />
         <module name="user" />
         <module name="menu" />
-        <module name="eurekaServer" />
+        <module name="client" />
         <module name="configServer" />
         <module name="order" />
+        <module name="account" />
         <module name="点餐系统" />
-        <module name="client" />
+        <module name="eurekaServer" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="acount" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="account" options="-parameters" />
+      <module name="acount" options="-parameters" />
       <module name="client" options="-parameters" />
       <module name="configServer" options="-parameters" />
       <module name="eurekaServer" options="-parameters" />
